@@ -54,6 +54,6 @@ Our model achieves the following performance on :
 | --------------- |---------------- | -------------- |
 | My model        |     85%         |      95%       |
 
-> 📋Include a table of results from your paper, and link back to the leaderboard to give readers more context in the future. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+> 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 
