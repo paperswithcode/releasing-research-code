@@ -2,7 +2,7 @@
 
 # My awesome paper title
 
-This repository is the official implementation of [My owesome paper title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [My awesome paper title](https://arxiv.org/abs/2030.12345). 
 
 > 📋Optional: include a graphic explaining your approach or main result. 
 
@@ -40,7 +40,7 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 
 You can download pretrained models here:
 
-- [My model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
+- [Mymodel](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
 > 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable). 
 
@@ -52,7 +52,7 @@ Our model achieves the following performance on :
 
 | Model name      | Top 1 Accuracy  | Top 5 Accuracy |
 | --------------- |---------------- | -------------- |
-| My model        |     85%         |      95%       |
+| Mymodel         |     85%         |      95%       |
 
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
