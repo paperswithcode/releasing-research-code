@@ -40,7 +40,7 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 
 You can download pretrained models here:
 
-- [Mymodel](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
+- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
 > 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable). 
 
@@ -50,9 +50,9 @@ Our model achieves the following performance on :
 
 ### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
-| Model name      | Top 1 Accuracy  | Top 5 Accuracy |
-| --------------- |---------------- | -------------- |
-| Mymodel         |     85%         |      95%       |
+| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
+| ------------------ |---------------- | -------------- |
+| My awesome model   |     85%         |      95%       |
 
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
