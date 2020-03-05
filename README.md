@@ -1,10 +1,10 @@
 > 📋A template README.md for code accompanying a Machine Learning paper
 
-# My awesome paper title
+# My Paper Title
 
 This repository is the official implementation of [My awesome paper title](https://arxiv.org/abs/2030.12345). 
 
-> 📋Optional: include a graphic explaining your approach or main result. 
+> 📋Optional: include a graphic explaining your approach or main result along with a brief summary. 
 
 ## Requirements
 
@@ -18,13 +18,13 @@ pip install -r requirements.txt
 
 ## Training
 
-To train the model in the paper, run this command:
+To train the model(s) in the paper, run this command:
 
 ```train
 python train.py --input-data <path_to_data> --alpha 10 --beta 20
 ```
 
-> 📋Describe how to train the model, with example commands on how to train the models in your paper, including the full training procedure and hyperparameter optimisation approach.
+> 📋Describe how to train the models, with example commands on how to train the models in your paper, including the full training procedure and appropriate hyperparameters.
 
 ## Evaluation
 
@@ -34,15 +34,15 @@ To evaluate my model on ImageNet, run:
 python eval.py --model-file mymodel.pth --benchmark imagenet
 ```
 
-> 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give example commands. 
+> 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give commands that produce the results (section below).
 
-## Pre-trained models
+## Pre-trained Models
 
 You can download pretrained models here:
 
 - [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
-> 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable). 
+> 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
 
 ## Results
 
