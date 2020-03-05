@@ -48,7 +48,7 @@ We provide links to pretrained models:
 
 Our model achieves the following performance on :
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+#### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
 | Model name      | Top 1 Accuracy  | Top 5 Accuracy |
 | --------------- |---------------- | -------------- |
