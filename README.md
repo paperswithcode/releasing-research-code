@@ -50,7 +50,7 @@ We provide links to pretrained models:
 
 Our model achieves the following performance on Image Classification on ImageNet:
 
-| Model name      | Top 1 Accuracy on (ImageNet)[https://paperswithcode.com/sota/image-classification-on-imagenet] |
+| Model name      | Top 1 Accuracy on [ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet) |
 | --------------- |-------------------- |
 | my main model   |     85%             |
 | my small model  |     79%             |
