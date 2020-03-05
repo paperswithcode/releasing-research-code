@@ -2,7 +2,7 @@
 
 # My Paper Title
 
-This repository is the official implementation of [My awesome paper title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
 > 📋Optional: include a graphic explaining your approach or main result along with a brief summary. 
 
