@@ -1,10 +1,10 @@
-> 🧩A template README.md for code accompanying a Machine Learning paper
+> 📋A template README.md for code accompanying a Machine Learning paper
 
 # My owesome paper title
 
 This repository is the official implementation of [My owesome paper title](https://arxiv.org/abs/2030.12345). 
 
-> 🧩Optional: include a graphic explaining your approach or main result. 
+> 📋Optional: include a graphic explaining your approach or main result. 
 
 ## Requirements
 
@@ -14,7 +14,7 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
-> 🧩Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
+> 📋Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training
 
@@ -34,7 +34,7 @@ To evaluate my model on ImageNet, run:
 python eval.py --model-file mymodel.pth --benchmark imagenet
 ```
 
-> 🧩Describe how to evaluate the trained models on benchmarks reported in the paper, give example commands. 
+> 📋Describe how to evaluate the trained models on benchmarks reported in the paper, give example commands. 
 
 ## Pre-trained models
 
@@ -42,7 +42,7 @@ We provide links to pretrained models:
 
 - [mymodel.pth](https://drive.google.com/filehash)
 
-> 🧩Give a link to where/how the pretrained models can be downloaded and used (if applicable). 
+> 📋Give a link to where/how the pretrained models can be downloaded and used (if applicable). 
 
 ## Results
 
@@ -54,6 +54,6 @@ Our model achieves the following performance on :
 | --------------- |---------------- | -------------- |
 | My model        |     85%         |      95%       |
 
-> 🧩Include a table of results from your paper, and link back to the leaderboard to give readers more context in the future. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+> 📋Include a table of results from your paper, and link back to the leaderboard to give readers more context in the future. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 
