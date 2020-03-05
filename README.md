@@ -24,7 +24,7 @@ To train the model in the paper, run this command:
 python train.py --input-data <path_to_data> --alpha 10 --beta 20
 ```
 
-> 🧩Describe how to train the model, with example commands on how to train the models in your paper, including the full training procedure and hyperparameter optimisation approach.
+> 📋Describe how to train the model, with example commands on how to train the models in your paper, including the full training procedure and hyperparameter optimisation approach.
 
 ## Evaluation
 
