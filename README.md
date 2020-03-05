@@ -38,11 +38,11 @@ python eval.py --model-file mymodel.pth --benchmark imagenet
 
 ## Pre-trained models
 
-We provide links to pretrained models:
+You can download pretrained models here:
 
-- [mymodel.pth](https://drive.google.com/filehash)
+- [My model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
 
-> 📋Give a link to where/how the pretrained models can be downloaded and used (if applicable). 
+> 📋Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable). 
 
 ## Results
 
