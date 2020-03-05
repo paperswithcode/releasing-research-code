@@ -1,4 +1,4 @@
-> 🧩This is a template for code README.md accompanying a Machine Learning paper
+> 🧩A template README.md for code accompanying a Machine Learning paper
 
 # My owesome paper title
 
