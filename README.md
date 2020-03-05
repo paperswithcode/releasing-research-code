@@ -1,6 +1,6 @@
 > 📋A template README.md for code accompanying a Machine Learning paper
 
-# My owesome paper title
+# My awesome paper title
 
 This repository is the official implementation of [My owesome paper title](https://arxiv.org/abs/2030.12345). 
 
