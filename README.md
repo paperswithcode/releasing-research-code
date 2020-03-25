@@ -4,7 +4,7 @@
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
-> 📋Optional: include a graphic explaining your approach or main result along with a brief summary. 
+> 📋Optional: include a graphic explaining your approach/main result and the bibtex entry
 
 ## Requirements
 
