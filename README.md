@@ -12,9 +12,9 @@ Goals of the ML Code Completeness Checklist:
 - facilitate reproducibility
 - make it easier for others build upon research code 
 
-We find that repositories that follow all of the checklist items get many more github stars (on median 200 more, and on average 2500 more). 
+We find that those repositories that score higher on the checklist tend to also have a higher number of GitHub stars. 
 
-For more details behind the checklist items please refer to our [medium post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.Rmd) to reproduce this analysis from the medium post. 
+We've verified this by analysing NeurIPS 2019 repositories. For more details on this analyis please refer to our [medium post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.Rmd) to reproduce this analysis from the post. 
 
 The checklist is made to be as general as possible. It consists of 5 items:
 
