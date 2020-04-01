@@ -1,12 +1,20 @@
 # Resources for releasing research code in Machine Learning
 
+This repository contains resources for those wanting to publish a high impact ML research repository. 
+
+## README.md template
+
+We provide a [README.md template](templates/README.md) for releasing ML research repositories.  
+
 ## ML Code Completeness Checklist
 
-We introduce the ML Code Completeness Checklist to:
+Goals of the ML Code Completeness Checklist:
 - facilitate reproducibility
 - make it easier for others build upon research code 
 
-For background and reasoning behind the checklist items please refer to our [medium post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.Rmd) to reproduce this analysis from the medium post. 
+We find that repositories that follow all of the checklist items get many more github stars (on median 200 more, and on average 2500 more). 
+
+For more details behind the checklist items please refer to our [medium post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.Rmd) to reproduce this analysis from the medium post. 
 
 The checklist is made to be as general as possible. It consists of 5 items:
 
@@ -53,10 +61,6 @@ Training the model from scratch might take a long time, so releasing the model l
 Releasing models is also useful if it's quick to train, as it serves as a point of comparison. Finally, even if you don't expect people to use your model for fine-tuning or any other downstream task, it is still useful to release it so the community can try it out.
 
 ## Awesome resources for releasing research code
-
-### README.md templates
-
-1. [Our README.md template](templates/README.md)
 
 ### Hosting pretrained models files
 
