@@ -1,22 +1,22 @@
-# Resources for releasing research code in Machine Learning
+# Resources for Code Release in Machine Learning
 
 This repository contains resources for those wanting to publish a high impact ML research repository. 
 
 ## README.md template
 
-We provide a [README.md template](templates/README.md) for releasing ML research repositories.  
+We provide a [README.md template](templates/README.md) that you can use for releasing ML research repositories. The sections in the template were derived by looking at existing repositories, seeing which had the best reception in the community, and then looking at common components that correlate with perceived usefulness (see next Section).
 
 ## ML Code Completeness Checklist
 
-Goals of the ML Code Completeness Checklist:
+The goals of the ML Code Completeness Checklist are to:
 - facilitate reproducibility
 - make it easier for others build upon research code 
 
-We find that those repositories that score higher on the checklist tend to also have a higher number of GitHub stars. 
+We find that those repositories that score higher on the checklist tend to have a higher number of GitHub stars. 
 
 We've verified this by analysing NeurIPS 2019 repositories. For more details on this analyis please refer to our [medium post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.Rmd) to reproduce this analysis from the post. 
 
-The checklist is made to be as general as possible. It consists of 5 items:
+The checklist is made to be as general as possible. It consists of five items:
 
 1. Specification of dependencies
 2. Training code
@@ -36,29 +36,29 @@ If you wish to provide whole reproducible environments, you might want to consid
 
 #### 2. Training code
 
-Training models, even when the whole model is well-specific, can be very difficult. Include scripts that mirror your training setup as closely as possible, so users can understand how you trained your models and can re-use your methodology on their own dataset. 
+Your code should have a training script that can be used to obtain the principal results stated in the paper. This means you should include hyperparameters and any tricks that were used in the process of getting your results. To maximize usefulness, ideally this code should be written with extensibility in mind: what if your user wants to use the same training script on their own dataset?
 
-This should include hyperparameters and training tricks you are using in your training. 
-
-You can also provide a documented command line wrapper such as `train.py` to serve as a useful entry point for your users. 
+You can provide a documented command line wrapper such as `train.py` to serve as a useful entry point for your users. 
 
 #### 3. Evaluation code
 
-Evaluating models and running experiments is frequently filled with subtle details that are not always possible to explain in the paper. If you include the exact code you used to evaluate your models or run different comparison scenarios, this can be useful to the user to understand and build on your research. 
+Model evaluation and experiments often depend on subtle details that are not always possible to explain in the paper. This is why including the exact code you used to evaluate or run experiments is helpful to give a complete description of the procedure. In turn, this helps the user to trust, understand and build on your research.
 
-You can also provide a documented command line wrapper such as `eval.py` to serve as a useful entry point for your users interested in understanding how you evaluated your models. 
+You can provide a documented command line wrapper such as `eval.py` to serve as a useful entry point for your users.
 
 #### 4. Table/Figure of the main result, with instruction to reproduce it
 
-Adding a table/figure of results into README.md lets your users quickly understand what to expect from the repository (see the [README.md template](templates/README.md) for an example). Instructions on how to reproduce those results (with links to any relevant scripts, pretrained models etc) can provide another entry point for the user and directly facilitate reproducibility.  
+Adding a table/figure of results into README.md lets your users quickly understand what to expect from the repository (see the [README.md template](templates/README.md) for an example). Instructions on how to reproduce those results (with links to any relevant scripts, pretrained models etc) can provide another entry point for the user and directly facilitate reproducibility. 
 
-Linking back to the full leaderboard enables user to put your results in context and enhance trust in those results. 
+You can also put your results in context by linking back to a full leaderboard of results on the same benchmark, aiding comparison with a larger set of methodologies.
 
 #### 5. Pre-trained models
 
-Training the model from scratch might take a long time, so releasing the model lets the community evaluate it without having to train it themselves. 
+Training a model from scratch can be time-consuming and expensive. One way to increase trust in your results is to provide a pre-trained model that the community can evaluate to obtain the end results. This means users can see the results are credible without having to train afresh.
 
-Releasing models is also useful if it's quick to train, as it serves as a point of comparison. Finally, even if you don't expect people to use your model for fine-tuning or any other downstream task, it is still useful to release it so the community can try it out.
+Another common use case is fine-tuning for downstream task, where it's useful to release a pretrained model so others can build on it for application to their own datasets.
+
+Lastly, some users might want to try out your model to see if it works on some example data. Providing pre-trained models allows your users to play around with your work and aids understanding of the paper's achievements.
 
 ## Awesome resources for releasing research code
 
@@ -83,7 +83,8 @@ Releasing models is also useful if it's quick to train, as it serves as a point 
 
 1. [Papers with Code leaderboards](https://paperswithcode.com/sota)
 2. [CodaLab](https://competitions.codalab.org/)
-3. [EvalAI](https://evalai.cloudcv.org/)
+3. [NLP Progress](https://nlpprogress.com/)
+4. [EvalAI](https://evalai.cloudcv.org/)
 
 ### Making project pages
 
