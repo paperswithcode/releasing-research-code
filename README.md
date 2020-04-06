@@ -1,6 +1,6 @@
 # Research Code Guidelines
 
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=300>
+<img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
 **This repository contains the official guidelines for NeurIPS 2020 code submission**. 
 
@@ -106,3 +106,9 @@ Lastly, some users might want to try out your model to see if it works on some e
 1. [Google Colab](https://colab.research.google.com/)
 2. [Binder](https://mybinder.org/)
 3. [Streamlit](https://github.com/streamlit/streamlit)
+
+## Contributing
+
+If you'd like to contribute, or have any suggestions for these guidelines, you can contact us at hello@paperswithcode.com.
+
+License is MIT.
