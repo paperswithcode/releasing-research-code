@@ -1,4 +1,4 @@
-# NeurIPS 2020 code submission resources
+# Publishing research code (with official NeurIPS 2020 recommendations)
 
 This repository contains official **NeurIPS 2020 code submission** resources. 
 
