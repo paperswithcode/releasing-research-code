@@ -4,11 +4,9 @@
 
 **This repository contains the official guidelines for NeurIPS 2020 code submission**. 
 
-These guidelines assist researchers in maximizing the impact of their research with high-quality code repositories.
-
 For NeurIPS 2020 code submissions we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
-All recommendations are based on a [data-driven analysis](https://medium.com/paperswithcode) of what makes research code repositories have high impact. 
+All recommendations are based on a [data-driven analysis](https://medium.com/paperswithcode) of which components of the repository correlated with high impact (as measured by GitHub stars). So we expect these recommendations to be useful for all research repositories (i.e. beyond NeurIPS submissions). 
 
 ## README.md template
 
