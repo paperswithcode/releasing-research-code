@@ -1,4 +1,4 @@
-# Resources for Code Release in Machine Learning
+# NeurIPS 2020 code submission resources
 
 This repository contains official **NeurIPS 2020 code submission** resources. 
 
