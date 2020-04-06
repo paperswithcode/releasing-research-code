@@ -1,6 +1,10 @@
 # Resources for Code Release in Machine Learning
 
-This repository contains resources for those wanting to publish a high impact ML research repository. 
+This repository contains official **NeurIPS 2020 code submission** resources. 
+
+For NeurIPS 2020 code submissions we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
+
+The recommendation is based on a [data-driven analysis](https://medium.com/paperswithcode) of what makes a research code repository have high impact. 
 
 ## README.md template
 
@@ -23,6 +27,8 @@ The checklist is made to be as general as possible. It consists of five items:
 3. Evaluation code
 4. Table/Figure of the main result, with instruction to reproduce it
 5. Pre-trained model
+
+We found that NeurIPS 2019 repositories that have all five of these components got the highest number of GitHub stars. 
 
 We'll explain each one in some detail below. 
 
@@ -60,7 +66,7 @@ Another common use case is fine-tuning for downstream task, where it's useful to
 
 Lastly, some users might want to try out your model to see if it works on some example data. Providing pre-trained models allows your users to play around with your work and aids understanding of the paper's achievements.
 
-## Awesome resources for releasing research code
+## Other awesome resources for releasing research code
 
 ### Hosting pretrained models files
 

@@ -4,7 +4,7 @@
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
-> 📋Optional: include a graphic explaining your approach/main result and the bibtex entry
+> 📋Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
 ## Requirements
 
@@ -57,3 +57,6 @@ Our model achieves the following performance on :
 > 📋Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
 
+## Contributing
+
+> 📋Pick a licence and describe how to contribute to your code repository. 
