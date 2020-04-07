@@ -2,7 +2,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
-**This repository contains the official guidelines for NeurIPS 2020 code submission, with the supporting analysis and resources.** 
+**Official guidelines for NeurIPS 2020 code submission, with the supporting analysis and resources.** 
 
 For NeurIPS 2020 code submissions we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
