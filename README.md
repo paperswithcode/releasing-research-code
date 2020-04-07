@@ -6,7 +6,7 @@
 
 The recommendations are based on analysis of more than 200 repositories, they facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
 
-For **NeurIPS 2020 code submissions** we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
+For NeurIPS 2020 code submissions we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
 ## README.md template
 
