@@ -6,7 +6,7 @@
 
 For NeurIPS 2020 code submissions we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
-We expect these recommendations to be useful for all ML research repositories (i.e. beyond conference submissions), as they are based on a [data-driven analysis](https://medium.com/paperswithcode) of research impact. 
+Despite being aimed at NeurIPS 2020 authors, we feel these recommendations are useful more broadly - for all ML research repositories. You can learn more about our analysis that lead to thse recommendations in [our blog post](https://medium.com/paperswithcode). 
 
 ## README.md template
 
@@ -27,8 +27,8 @@ The checklist is made to be as general as possible. It consists of five items:
 1. Specification of dependencies
 2. Training code
 3. Evaluation code
-4. Table/Figure of the main result, with instruction to reproduce it
-5. Pre-trained model
+4. Pre-trained models
+5. README file includes table of results accompanied by precise command to run to produce those results
 
 We found that NeurIPS 2019 repositories that have all five of these components got the highest number of GitHub stars. 
 
@@ -54,19 +54,19 @@ Model evaluation and experiments often depend on subtle details that are not alw
 
 You can provide a documented command line wrapper such as `eval.py` to serve as a useful entry point for your users.
 
-#### 4. Table/Figure of the main result, with instruction to reproduce it
-
-Adding a table/figure of results into README.md lets your users quickly understand what to expect from the repository (see the [README.md template](templates/README.md) for an example). Instructions on how to reproduce those results (with links to any relevant scripts, pretrained models etc) can provide another entry point for the user and directly facilitate reproducibility. 
-
-You can also put your results in context by linking back to a full leaderboard of results on the same benchmark, aiding comparison with a larger set of methodologies.
-
-#### 5. Pre-trained models
+#### 4. Pre-trained models
 
 Training a model from scratch can be time-consuming and expensive. One way to increase trust in your results is to provide a pre-trained model that the community can evaluate to obtain the end results. This means users can see the results are credible without having to train afresh.
 
 Another common use case is fine-tuning for downstream task, where it's useful to release a pretrained model so others can build on it for application to their own datasets.
 
 Lastly, some users might want to try out your model to see if it works on some example data. Providing pre-trained models allows your users to play around with your work and aids understanding of the paper's achievements.
+
+#### 5. README file includes table of results accompanied by precise command to run to produce those results
+
+Adding a table of results into README.md lets your users quickly understand what to expect from the repository (see the [README.md template](templates/README.md) for an example). Instructions on how to reproduce those results (with links to any relevant scripts, pretrained models etc) can provide another entry point for the user and directly facilitate reproducibility. 
+
+You can further help the user understand and contextualize your results by linking back to the full leaderboard that has up-to-date results from other papers. There are [multiple leaderboard services](#results-leaderboards) where this information is stored.  
 
 ## Other awesome resources for releasing research code
 
@@ -107,6 +107,6 @@ Lastly, some users might want to try out your model to see if it works on some e
 
 ## Contributing
 
-If you'd like to contribute, or have any suggestions for these guidelines, you can contact us at hello@paperswithcode.com.
+If you'd like to contribute, or have any suggestions for these guidelines, you can contact us at hello@paperswithcode.com or open an issue on this GitHub repository. 
 
-License is MIT.
+All contributions welcome! All content in this repository is licensed under the MIT license.
