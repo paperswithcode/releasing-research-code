@@ -64,10 +64,10 @@ layout(matrix(c(1,2), 1, 2, byrow = TRUE), widths=c(3,2))
 barplot(medians, 
         xlab="", 
         ylab="Median GitHub stars", ylim=c(0,200),
-        col=brewer.pal(6, "Blues"), cex.axis=0.7, cex.names=0.7)
+        col=brewer.pal(6, "Blues"), cex.axis=0.6, cex.names=0.6)
 mtext("GitHub repos grouped by number of ticks on ML code checklist", side=1, line=3, cex=0.8)
 
-pie(rev(props), col=rev(brewer.pal(6, "Blues")), cex=0.7)
+pie(rev(props), col=rev(brewer.pal(6, "Blues")), cex=0.6)
 mtext("Proportion of repositories in each group", side=1, line=3, cex=0.8)
 ```
 
