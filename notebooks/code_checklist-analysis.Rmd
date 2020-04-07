@@ -1,11 +1,13 @@
 ---
-title: "R Notebook"
-output: html_notebook
+title: "ML Code Completeness Checklist Analysis"
+output:
+  pdf_document: default
+  html_notebook: default
 ---
 
-ML Code Completeness analysis for NeurIPS 2019 repositories. 
+This notebook contains the ML Code Completeness analysis for NeurIPS 2019 repositories. 
 
-For a run & rendered version of this notebook please see: [code_checklist-analysis.nb.html](code_checklist-analysis.nb.html).
+For a run & rendered version of this notebook please see: [code_checklist-analysis.pdf](code_checklist-analysis.pdf).
 
 Official repositories for NeurIPS 2019 papers fetched from: https://papers.nips.cc/book/advances-in-neural-information-processing-systems-32-2019
 
@@ -85,7 +87,7 @@ Fit robust regression and test significance of results
 print(summary(rlm(stars~training+evaluation+pretrained_model+results+dependencies, data=t)))
 
 for(i in 0:4){
-  cat("Score5 vs Score", i)
+  cat("\nScore5 vs Score", i, "\n")
   print(wilcox.test(t$stars[t$score==5], t$stars[t$score==i]))
 }
 ```
