@@ -18,11 +18,15 @@ We compiled this checklist by looking at what's common to the most popular ML re
 
 The ML Code Completness Checklist consists of five items:
 
-1. ✓ **Specification of dependencies**
-2. ✓ **Training code**
-3. ✓ **Evaluation code**
-4. ✓ **Pre-trained models**
-5. ✓ **README file including table of results accompanied by precise commands to run/produce those results**
+✓ **Specification of dependencies**
+
+✓ **Training code** 
+
+✓ **Evaluation code**
+
+✓ **Pre-trained models**
+
+✓ **README file including table of results accompanied by precise commands to run/produce those results**
 
 We verified that repositories that check more items on the checklist also tend to have a higher number of GitHub stars. This was verified by analysing official NeurIPS 2019 repositories - more details in the [blog post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
 
