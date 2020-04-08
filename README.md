@@ -64,7 +64,7 @@ Adding a table of results into README.md lets your users quickly understand what
 
 You can further help the user understand and contextualize your results by linking back to the full leaderboard that has up-to-date results from other papers. There are [multiple leaderboard services](#results-leaderboards) where this information is stored.  
 
-## Additional awesome resources for releasing research code
+## 🎉 Additional awesome resources for releasing research code
 
 ### Hosting pretrained models files
 
