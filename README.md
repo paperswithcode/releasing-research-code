@@ -4,7 +4,7 @@
 
 **General resources for increasing impact of ML research code - now official guidelines at NeurIPS 2020.** 
 
-Based on analysis of more than 200 ML repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
+Based on analysis of more than 200 Machine Lerarning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
 
 For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](#readmemd-template) and check as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
