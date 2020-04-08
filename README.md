@@ -1,12 +1,12 @@
-# Publishing research code (with official NeurIPS 2020 recommendations)
+# Research Code Resources
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
-**General guidelines for publishing high-impact research code - now official guidelines at NeurIPS 2020.** 
+**General resource for publishing high-impact research code - now official guidelines at NeurIPS 2020.** 
 
-The recommendations are based on analysis of more than 200 repositories, they facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
+Recommended resources are based on analysis of more than 200 repositories, they facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
 
-For NeurIPS 2020 code submissions we recommend using a [README.md template](#readmemd-template) and checking as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
+For NeurIPS 2020 code submissions the official recommendation is to use a [README.md template](#readmemd-template) and check as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
 ## README.md template
 
