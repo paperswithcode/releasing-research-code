@@ -4,7 +4,7 @@
 
 **💡 Collated best practices from most popular ML research repositories - *now official guidelines at NeurIPS 2020!*** 
 
-Based on analysis of more than 200 Machine Learning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - for more details, see our [our blog post](https://medium.com/paperswithcode). 
+Based on analysis of more than 200 Machine Learning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - for more details, see our [our blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501). 
 
 For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](#readmemd-template) and check as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
@@ -24,7 +24,7 @@ The ML Code Completness Checklist consists of five items:
 4. **Pre-trained models**
 5. **README file including table of results accompanied by precise commands to run/produce those results**
 
-We verified that repositories that check more items on the checklist also tend to have a higher number of GitHub stars. This was verified by analysing official NeurIPS 2019 repositories - more details in the [blog post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
+We verified that repositories that check more items on the checklist also tend to have a higher number of GitHub stars. This was verified by analysing official NeurIPS 2019 repositories - more details in the [blog post](https://medium.com/paperswithcode/ml-code-completeness-checklist-e9127b168501). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
 
 NeurIPS 2019 repositories that had all five of these components had the highest number of GitHub stars (median of 196 and mean of 2,664 stars). 
 
