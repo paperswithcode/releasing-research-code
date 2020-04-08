@@ -10,7 +10,7 @@ For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use t
 
 ## README.md template
 
-We provide a [README.md template](templates/README.md) that you can use for releasing ML research repositories. The sections in the template were derived by looking at existing repositories, seeing which had the best reception in the community, and then looking at common components that correlate with perceived usefulness (see next Section).
+We provide a [README.md template](templates/README.md) that you can use for releasing ML research repositories. The sections in the template were derived by looking at existing repositories, seeing which had the best reception in the community, and then looking at common components that correlate with popularity.
 
 ## ML Code Completeness Checklist
 
