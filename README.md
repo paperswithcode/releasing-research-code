@@ -22,11 +22,11 @@ We've found that repositories that score higher on the checklist tend to have a 
 
 The checklist is made to be as general as possible. It consists of five items:
 
-1. Specification of dependencies
-2. Training code
-3. Evaluation code
-4. Pre-trained models
-5. README file including table of results accompanied by precise commands to run/produce those results
+1. **Specification of dependencies**
+2. **Training code**
+3. **Evaluation code**
+4. **Pre-trained models**
+5. **README file including table of results accompanied by precise commands to run/produce those results**
 
 NeurIPS 2019 repositories that had all five of these components got the highest number of GitHub stars. 
 
