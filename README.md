@@ -1,8 +1,8 @@
-# Resources for Publishing Research Code
+# Resources for Releasing Research Code
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
-**General resource for publishing high-impact research code - now official guidelines at NeurIPS 2020.** 
+**General resources for publishing high-impact research code - now official guidelines at NeurIPS 2020.** 
 
 Based on analysis of more than 200 repositories, these resources facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
 
