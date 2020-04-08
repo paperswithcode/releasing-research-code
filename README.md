@@ -1,10 +1,10 @@
-# Resources for Releasing Research Code
+# Research Code Tips
 
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Logo_for_Conference_on_Neural_Information_Processing_Systems.svg/1200px-Logo_for_Conference_on_Neural_Information_Processing_Systems.svg.png" width=200>
 
-**General resources for increasing impact of ML research code - now official guidelines at NeurIPS 2020.** 
+**Tips for increasing impact of your ML research code - *now official guidelines at NeurIPS 2020!*** 
 
-Based on analysis of more than 200 Machine Lerarning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - more details in our [our blog post](https://medium.com/paperswithcode). 
+Based on analysis of more than 200 Machine Learning repositories, these recommendations facilitate reproducibility and correlate with GitHub stars - for more details, see our [our blog post](https://medium.com/paperswithcode). 
 
 For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](#readmemd-template) and check as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
@@ -18,9 +18,7 @@ The goals of the ML Code Completeness Checklist are to:
 - facilitate reproducibility
 - make it easier for others build upon research code 
 
-We find that those repositories that score higher on the checklist tend to have a higher number of GitHub stars. 
-
-We've verified this by analysing NeurIPS 2019 repositories. For more details on this analyis please refer to our [blog post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
+We've found that repositories that score higher on the checklist tend to have a higher number of GitHub stars. This was verified by analysing NeurIPS 2019 repositories. For more details on this analyis please refer to our [blog post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
 
 The checklist is made to be as general as possible. It consists of five items:
 
@@ -28,9 +26,9 @@ The checklist is made to be as general as possible. It consists of five items:
 2. Training code
 3. Evaluation code
 4. Pre-trained models
-5. README file includes table of results accompanied by precise command to run to produce those results
+5. README file including table of results accompanied by precise commands to run/produce those results
 
-We found that NeurIPS 2019 repositories that have all five of these components got the highest number of GitHub stars. 
+NeurIPS 2019 repositories that had all five of these components got the highest number of GitHub stars. 
 
 We'll explain each one in some detail below. 
 
