@@ -14,13 +14,13 @@ We provide a [README.md template](templates/README.md) that you can use for rele
 
 ## ML Code Completeness Checklist
 
-The goals of the ML Code Completeness Checklist are to:
+We compiled this checklist by looking at what's common to the most popular ML research repositories. In addition, we prioritized items that:
 - facilitate reproducibility
 - make it easier for others build upon research code 
 
-We've found that repositories that score higher on the checklist tend to have a higher number of GitHub stars. This was verified by analysing NeurIPS 2019 repositories. For more details on this analyis please refer to our [blog post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
+We verified that repositories that score higher on the checklist also tend to have a higher number of GitHub stars. This was verified by analysing official NeurIPS 2019 repositories - more details in the [blog post](https://medium.com/paperswithcode/). We also provide the [data](notebooks/code_checklist-neurips2019.csv) and [notebook](notebooks/code_checklist-analysis.pdf) to reproduce this analysis from the post. 
 
-The checklist is made to be as general as possible. It consists of five items:
+The ML Code Completness Checklist consists of five items:
 
 1. **Specification of dependencies**
 2. **Training code**
@@ -28,9 +28,9 @@ The checklist is made to be as general as possible. It consists of five items:
 4. **Pre-trained models**
 5. **README file including table of results accompanied by precise commands to run/produce those results**
 
-NeurIPS 2019 repositories that had all five of these components got the highest number of GitHub stars. 
+NeurIPS 2019 repositories that had all five of these components had the highest number of GitHub stars (median of 196 and mean of 2,664 stars). 
 
-We'll explain each one in some detail below. 
+We explain each item on the checklist in detail blow. 
 
 #### 1. Specification of dependencies
 
