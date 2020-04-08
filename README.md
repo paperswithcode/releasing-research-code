@@ -8,11 +8,11 @@ Based on analysis of more than 200 Machine Learning repositories, these recommen
 
 For NeurIPS 2020 code submissions it is recommended (but not mandatory) to use the [README.md template](#readmemd-template) and check as many items on the [ML Code Completeness Checklist](#ml-code-completeness-checklist) as possible. 
 
-## README.md template
+## 📋 README.md template
 
 We provide a [README.md template](templates/README.md) that you can use for releasing ML research repositories. The sections in the template were derived by looking at existing repositories, seeing which had the best reception in the community, and then looking at common components that correlate with popularity.
 
-## ML Code Completeness Checklist
+## ✓ ML Code Completeness Checklist
 
 We compiled this checklist by looking at what's common to the most popular ML research repositories. In addition, we prioritized items that facilitate reproducibility and make it easier for others build upon research code.
 
