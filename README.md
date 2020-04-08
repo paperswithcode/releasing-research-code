@@ -14,9 +14,7 @@ We provide a [README.md template](templates/README.md) that you can use for rele
 
 ## ML Code Completeness Checklist
 
-We compiled this checklist by looking at what's common to the most popular ML research repositories. In addition, we prioritized items that:
-- facilitate reproducibility
-- make it easier for others build upon research code 
+We compiled this checklist by looking at what's common to the most popular ML research repositories. In addition, we prioritized items that facilitate reproducibility and make it easier for others build upon research code.
 
 The ML Code Completness Checklist consists of five items:
 
