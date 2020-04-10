@@ -89,6 +89,7 @@ You can further help the user understand and contextualize your results by linki
 2. [CodaLab](https://competitions.codalab.org/)
 3. [NLP Progress](https://nlpprogress.com/)
 4. [EvalAI](https://evalai.cloudcv.org/)
+5. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks)
 
 ### Making project pages
 
