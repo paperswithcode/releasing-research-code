@@ -69,7 +69,7 @@ You can further help the user understand and contextualize your results by linki
 ### Hosting pretrained models files
 
 1. [GitHub Releases](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) - versioning, 2GB file limit, free bandwidth
-2. [Google Drive](https://drive.google.com) - versioning, 5TB, free bandwidth
+2. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
 3. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
 4. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
  
