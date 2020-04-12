@@ -85,11 +85,11 @@ You can further help the user understand and contextualize your results by linki
 
 ### Results leaderboards
 
-1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - 1600+ leaderboards
-2. [CodaLab](https://competitions.codalab.org/) - 450+ leaderboards
-3. [NLP Progress](https://nlpprogress.com/) - 90+ leaderboards
-4. [EvalAI](https://evalai.cloudcv.org/) - 50+ leaderboards
-5. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - 9+ leaderboards
+1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 1600+ leaderboards
+2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
+3. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
+4. [EvalAI](https://evalai.cloudcv.org/) - with 50+ leaderboards
+5. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - with 9+ leaderboards
 
 ### Making project pages
 
