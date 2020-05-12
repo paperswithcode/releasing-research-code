@@ -86,7 +86,7 @@ You can further help the user understand and contextualize your results by linki
 
 ### Results leaderboards
 
-1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 1600+ leaderboards
+1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 2500+ leaderboards
 2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
 3. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
 4. [EvalAI](https://evalai.cloudcv.org/) - with 50+ leaderboards
