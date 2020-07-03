@@ -1,4 +1,4 @@
->📋   A template README.md for code accompanying a Machine Learning paper
+>📋  A template README.md for code accompanying a Machine Learning paper
 
 # My Paper Title
 
