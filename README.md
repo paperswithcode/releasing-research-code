@@ -70,9 +70,10 @@ You can further help the user understand and contextualize your results by linki
 
 1. [Zenodo](https://zenodo.org) - versioning, 50GB, free bandwidth, DOI, provides long-term preservation
 2. [GitHub Releases](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) - versioning, 2GB file limit, free bandwidth
-3. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
-4. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
-5. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
+3. [OneDrive](https://www.onedrive.com/) - versioning, 2GB (free)/ 1TB (with Office 365), free bandwidth
+4. [Google Drive](https://drive.google.com) - versioning, 15GB, free bandwidth
+5. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
+6. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
  
 ### Managing model files
 
@@ -83,6 +84,7 @@ You can further help the user understand and contextualize your results by linki
 1. [PyTorch Hub](https://pytorch.org/hub/)
 2. [Tensorflow Hub](https://www.tensorflow.org/hub)
 3. [Hugging Face NLP models](https://huggingface.co/models)
+4. [ONNX](https://onnx.ai/)
 
 ### Results leaderboards
 
