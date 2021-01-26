@@ -75,6 +75,7 @@ You can further help the user understand and contextualize your results by linki
 5. [Dropbox](https://dropbox.com) - versioning, 2GB (paid unlimited), free bandwidth
 6. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
 7. [huggingface_hub](https://github.com/huggingface/huggingface_hub) - versioning, no size limitations, free bandwidth
+8. [DAGsHub](https://dagshub.com/) - versioning, no size limitations, free bandwith
  
 ### Managing model files
 
