@@ -92,8 +92,8 @@ You can further help the user understand and contextualize your results by linki
 
 1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 2500+ leaderboards
 2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
-3. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
-4. [EvalAI](https://evalai.cloudcv.org/) - with 50+ leaderboards
+3. [EvalAI](https://eval.ai/) - with 100+ leaderboards
+4. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
 5. [Collective Knowledge](https://cKnowledge.io/reproduced-results) - with 40+ leaderboards
 6. [Weights & Biases - Benchmarks](https://www.wandb.com/benchmarks) - with 9+ leaderboards
 
