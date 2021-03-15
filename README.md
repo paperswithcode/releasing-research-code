@@ -76,7 +76,7 @@ You can further help the user understand and contextualize your results by linki
 6. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
 7. [huggingface_hub](https://github.com/huggingface/huggingface_hub) - versioning, no size limitations, free bandwidth
 8. [DAGsHub](https://dagshub.com/) - versioning, no size limitations, free bandwith
-9. [CodaLab worksheets](https://worksheets.codalab.org/) - 10GB, free bandwith
+9. [CodaLab Worksheets](https://worksheets.codalab.org/) - 10GB, free bandwith
  
 ### Managing model files
 
@@ -108,7 +108,7 @@ You can further help the user understand and contextualize your results by linki
 1. [Google Colab](https://colab.research.google.com/)
 2. [Binder](https://mybinder.org/)
 3. [Streamlit](https://github.com/streamlit/streamlit)
-4. [CodaLab worksheets](https://worksheets.codalab.org/)
+4. [CodaLab Worksheets](https://worksheets.codalab.org/)
 
 ## Contributing
 
