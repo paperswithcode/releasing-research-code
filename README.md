@@ -76,6 +76,7 @@ You can further help the user understand and contextualize your results by linki
 6. [AWS S3](https://aws.amazon.com/s3/) - versioning, paid only, paid bandwidth
 7. [huggingface_hub](https://github.com/huggingface/huggingface_hub) - versioning, no size limitations, free bandwidth
 8. [DAGsHub](https://dagshub.com/) - versioning, no size limitations, free bandwith
+9. [CodaLab worksheets](https://worksheets.codalab.org/) - 10GB, free bandwith
  
 ### Managing model files
 
@@ -90,8 +91,8 @@ You can further help the user understand and contextualize your results by linki
 
 ### Results leaderboards
 
-1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 2500+ leaderboards
-2. [CodaLab](https://competitions.codalab.org/) - with 450+ leaderboards
+1. [Papers with Code leaderboards](https://paperswithcode.com/sota) - with 4000+ leaderboards
+2. [CodaLab Competitions](https://competitions.codalab.org/) - with 450+ leaderboards
 3. [EvalAI](https://eval.ai/) - with 100+ leaderboards
 4. [NLP Progress](https://nlpprogress.com/) - with 90+ leaderboards
 5. [Collective Knowledge](https://cKnowledge.io/reproduced-results) - with 40+ leaderboards
@@ -102,11 +103,12 @@ You can further help the user understand and contextualize your results by linki
 1. [GitHub pages](https://pages.github.com/)
 2. [Fastpages](https://github.com/fastai/fastpages)
 
-### Making demos and tutorials
+### Making demos, tutorials, executable papers
 
 1. [Google Colab](https://colab.research.google.com/)
 2. [Binder](https://mybinder.org/)
 3. [Streamlit](https://github.com/streamlit/streamlit)
+4. [CodaLab worksheets](https://worksheets.codalab.org/)
 
 ## Contributing
 
