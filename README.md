@@ -9,6 +9,7 @@ This repository is the official implementation of [My Paper Title](https://arxiv
 
 ### TODO
 ⬜️ Pretrained model on ImageNet 64x64, 128x128, CIFAR-10, CIFAR-100 dataset
+
 ⬜️ Release training code for Exact Selective Focusing Learning
 
 ## About Selective Focusing Learing
