@@ -5,7 +5,7 @@
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
->📋  ![distribution_overview1](https://user-images.githubusercontent.com/36159663/120271077-9d763080-c2e5-11eb-90cd-167ae185f0bc.png)
+![distribution_overview1](https://user-images.githubusercontent.com/36159663/120271077-9d763080-c2e5-11eb-90cd-167ae185f0bc.png)
 
 ## Requirements
 
