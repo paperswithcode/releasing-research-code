@@ -84,18 +84,19 @@ Selective Focusing Learing can be applied to any class labelled PyTorch dataset 
 The main hyperparameter for Selective Focusing Learing is the `retention_ratio`, a value from 0 to 100 which indicates the percentage of distribution matching that should be selected from the conditional matching. 
 
 ```python
-import torchvision
-import torchvision.transforms as transforms
-from SFL import SFL
 
-# images are expected to be in range [-1, 1]
-transform = transforms.Compose([transforms.ToTensor(),
-                                transforms.Normalize(mean=[0.5, 0.5, 0.5],
-                                                     std=[0.5, 0.5, 0.5])])
+  def SFL(self, out_c, out_u, Focusing_rate):
+    out_c, idx_c = torch.sort(out_c, dim=0)
+    out_u = out_u[idx_c[:, 0]]
+    out = torch.cat([out_c[Focusing_rate:] + out_u[Focusing_rate:], out_c[:Focusing_rate]], 0)
+    return out
 
-# replace CIFAR10 with your own dataset 
-dataset = torchvision.datasets.CIFAR10(root='.', transform=transform, download=True)
-instance_selected_dataset = select_instances(dataset, retention_ratio=50)
+  def SFL_plus(self, out_c, out_u, Focusing_rate, scores):
+    _,idx_c = torch.sort(scores, dim=0, descending=True)
+    out_c = out_c[idx_c]
+    out_u = out_u[idx_c]
+    out = torch.cat([out_c[Focusing_rate:] + out_u[Focusing_rate:], out_c[:Focusing_rate]], 0)
+    return out'''
 
 ## Contributing
 
