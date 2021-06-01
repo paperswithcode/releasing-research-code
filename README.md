@@ -77,7 +77,7 @@ Our model achieves the following performance on :
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it.
 > 
-## Applying Selective Focusing Learing to Your Own Dataset or Any Class-Conditional GAN Network
+## Applying Selective Focusing Learing to Your Own Dataset or Any Class-cGAN Network
 
 Selective Focusing Learing can be applied to any class labelled PyTorch dataset using the `SFL` function. When classes are provided, Selective Focusing Learing will be applied separately for each class.  
 
