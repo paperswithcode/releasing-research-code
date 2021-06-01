@@ -26,9 +26,10 @@ pip install -r requirements.txt
 
 ## Training BigGAN with Selective Focusing Learing on ImageNet
 
-To train BigGAN models we use the [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch) and [Instance Selection for GANs](https://github.com/uoguelph-mlrg/instance_selection_for_gans) repo. We perform minimal changes to the code, consisting only of adding options for instance selection and additional metric logging. A list of changes made to the original repo can be found in the change log at [BigGAN-PyTorch/change_log.md](https://github.com/uoguelph-mlrg/instance_selection_for_gans/blob/master/BigGAN-PyTorch/change_log.md). 
+To train BigGAN models we use the [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch) and [Instance Selection for GANs](https://github.com/uoguelph-mlrg/instance_selection_for_gans) repo. We perform minimal changes to the code. The change logs are as follows. The main change part is the conditional term of the projection discriminator in BigGAN.py (L391-L402, L415-L447). Further, updating the focusing rate is represented in train.py (L66-L71, L146-L155, L185-L209).
 
-#### Preparing Data
+
+#### Preparing Data (Same as [Instance Selection for GANs](https://github.com/uoguelph-mlrg/instance_selection_for_gans))
 To train a BigGAN on ImageNet you will first need to construct an HDF5 dataset file for ImageNet (optional), compute Inception moments for calculating FID, and construct the image manifold for calculating Precision, Recall, Density, and Coverage. All can by done by modifying and running 
 ```
 bash scripts/utils/prepare_data_imagenet_[res].sh
