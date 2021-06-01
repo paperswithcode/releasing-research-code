@@ -39,16 +39,16 @@ where [res] is substituted with the desired resolution (options are 64, 128, or 
 #### 64x64 ImageNet
 To replicate our best 64x64 model run `bash scripts/launch_SAGAN_res64_ch32_bs128_dstep_1_rr40.sh`. A single GPU with at least 12GB of memory should be sufficient to train this model. Training is expected to take about 2-3 days on a high-end GPU. 
 
-We added only two configuration: 
+We added only two configurations: Training_type and maximum_focusing_rate.
 ```
-parser.add_argument(
-  '--maximum_focusing_rate', type=float, default=1,
-  help='The percentage of maximum focusing rate (default: %(default)s)')
-
 parser.add_argument(
   '--Training_type', type=str, default='without_SFL',
   choices=['without_SFL', 'SFL', 'SFL+'],
   help='Training type of SFL (default: %(default)s)')
+  
+parser.add_argument(
+  '--maximum_focusing_rate', type=float, default=1,
+  help='The percentage of maximum focusing rate (default: %(default)s)')
 ```
 
 ## Pre-trained Models
