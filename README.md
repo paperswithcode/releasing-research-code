@@ -66,11 +66,14 @@ You can download pretrained models here:
 
 Our model achieves the following performance on :
 
-### [Image Classification on ImageNet](https://paperswithcode.com/sota/image-classification-on-imagenet)
+### [Conditional Image Generation on ImageNet 64x64](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
-| Model name         | Top 1 Accuracy  | Top 5 Accuracy |
-| ------------------ |---------------- | -------------- |
-| My awesome model   |     85%         |      95%       |
+| Model name         |   IS   |   FID  |
+| ------------------ |--------| ------ |
+|       SA-GAN       |  17.77 |  17.23 |
+|      Approx SFL    |  19.11 |  16.20 |
+|      Approx SFL+   |  21.50 |  14.20 |
+|      Exact SFL+    |  21.98 |  13.55 |
 
 >📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
 
