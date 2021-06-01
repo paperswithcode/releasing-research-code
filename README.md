@@ -96,7 +96,8 @@ The main hyperparameter for Selective Focusing Learing is the `retention_ratio`,
     out_c = out_c[idx_c]
     out_u = out_u[idx_c]
     out = torch.cat([out_c[Focusing_rate:] + out_u[Focusing_rate:], out_c[:Focusing_rate]], 0)
-    return out'''
+    return out
+```
 
 ## Contributing
 
