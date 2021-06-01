@@ -8,7 +8,7 @@ This repository is the official implementation of [My Paper Title](https://arxiv
 
 
 ### TODO
-⬜️ Release pretrained model on ImageNet 64x64, 128x128, CIFAR-10, CIFAR-100 dataset
+⬜️ Release pre-trained model on ImageNet 64x64, 128x128, CIFAR-10, CIFAR-100 dataset
 
 ⬜️ Release training code for Exact Selective Focusing Learning
 
@@ -53,11 +53,7 @@ parser.add_argument(
 
 ## Pre-trained Models
 
-You can download pretrained models here:
-
-- [My awesome model](https://drive.google.com/mymodel.pth) trained on ImageNet using parameters x,y,z. 
-
->📋  Give a link to where/how the pretrained models can be downloaded and how they were trained (if applicable).  Alternatively you can have an additional column in your results table with a link to the models.
+Pre-trained Models will be released after the paper is accepted.
 
 ## Results
 
@@ -72,13 +68,11 @@ Our model achieves the following performance on :
 |      Approx SFL+   |  21.50 |  14.20 | 0.72| **0.68**| 0.84| 0.80|
 |      Exact SFL+    |  **21.98** |  **13.55** | **0.73**| 0.66| **0.85**| **0.81**|
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it.
-> 
-## Applying Selective Focusing Learing to Your Own Dataset or Any Class-cGAN Network
 
-Selective Focusing Learing can be applied to any class labelled PyTorch dataset using the `SFL` function. When classes are provided, Selective Focusing Learing will be applied separately for each class.  
+## Applying Selective Focusing Learing to Your Own Dataset or Any cGAN variant architectures
 
-The main hyperparameter for Selective Focusing Learing is the `retention_ratio`, a value from 0 to 100 which indicates the percentage of distribution matching that should be selected from the conditional matching. 
+Selective Focusing Learing can be applied to any class labeled PyTorch dataset using the `SFL` and `SFL_plus` functions which are a few lines of code. 
+
 
 ```python
 
@@ -97,5 +91,5 @@ The main hyperparameter for Selective Focusing Learing is the `retention_ratio`,
 ```
 
 ## Contributing
-
->📋  Pick a licence and describe how to contribute to your code repository.
+[1] Brock, Andrew, and Alex Andonian. "BigGAN-PyTorch". https://github.com/ajbrock/BigGAN-PyTorch
+[2] Terrance DeVries, Michal Drozdzal, and Graham W. Taylor. "Instance Selection for GANs". https://github.com/uoguelph-mlrg/instance_selection_for_gans
