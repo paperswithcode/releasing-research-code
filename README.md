@@ -17,8 +17,22 @@ pip install -r requirements.txt
 
 >📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
-## Training
+## Training BigGAN on ImageNet with Selective Focusing Learing
 
+To train BigGAN models we use the [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch) repo. We perform minimal changes to the code, consisting only of adding options for instance selection and additional metric logging. A list of changes made to the original repo can be found in the change log at [BigGAN-PyTorch/change_log.md](https://github.com/uoguelph-mlrg/instance_selection_for_gans/blob/master/BigGAN-PyTorch/change_log.md). 
+
+#### Preparing Data
+To train a BigGAN on ImageNet you will first need to construct an HDF5 dataset file for ImageNet (optional), compute Inception moments for calculating FID, and construct the image manifold for calculating Precision, Recall, Density, and Coverage. All can by done by modifying and running 
+```
+bash scripts/utils/prepare_data_imagenet_[res].sh
+```
+where [res] is substituted with the desired resolution (options are 64, 128, or 256). These scripts will assume that ImageNet is in a folder called `data` in the instance_selection_for_gans directory. Replace this with the filepath to your copy of ImageNet. 
+
+#### 64x64 ImageNet
+To replicate our best 64x64 model run `bash scripts/launch_SAGAN_res64_ch32_bs128_dstep_1_rr40.sh`. A single GPU with at least 12GB of memory should be sufficient to train this model. Training is expected to take about 2-3 days on a high-end GPU.
+
+#### 128x128 ImageNet
+To replicate 128x128 ImageNet results run `bash scripts/launch_BigGAN_res128_ch64_bs256_dstep_1_rr50.sh`. This script assumes that training will be done on 8 GPUs with 16GB of memory each. To train with less GPUs, or if you encounter out-of-memory errors, you can try reducing `batch_size` and increasing `num_G_accumulations` and `num_D_accumulations` to achieve the desired effective batch size (effective batch size = batch_size x num_accumulations).
 To train the model(s) in the paper, run this command:
 
 ```train
