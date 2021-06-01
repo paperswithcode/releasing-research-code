@@ -3,16 +3,13 @@
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
-### TODO
-
-⬜️ Release training code for ImageNet experiments  
-✔️ DGP experiments with pretrained Omni-INR-GAN models  
-✔️ Resutls on ImageNet 256x256 dataset  
-✔️ Results on ImageNet 128x128 dataset  
-
-
 
 ![distribution_overview1](https://user-images.githubusercontent.com/36159663/120271077-9d763080-c2e5-11eb-90cd-167ae185f0bc.png)
+
+
+### TODO
+⬜️ Pretrained model on ImageNet 64x64, 128x128, CIFAR-10, CIFAR-100 dataset
+⬜️ Release training code for Exact Selective Focusing Learning
 
 ## About Selective Focusing Learing
 
