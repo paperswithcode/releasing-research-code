@@ -1,10 +1,11 @@
+
 >📋  A template README.md for code accompanying a Machine Learning paper
 
 # Selective Focusing Learning for Conditional GANs
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
->📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
+>📋  ![distribution_overview1](https://user-images.githubusercontent.com/36159663/120271077-9d763080-c2e5-11eb-90cd-167ae185f0bc.png)
 
 ## Requirements
 
