@@ -1,6 +1,6 @@
 >📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# Selective Focusing Learning for Conditional GANs
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
 
