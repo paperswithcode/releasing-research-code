@@ -49,7 +49,7 @@ parser.add_argument(
   '--Training_type', type=str, default='without_SFL',
   choices=['without_SFL', 'SFL', 'SFL+'],
   help='Training type of SFL (default: %(default)s)')
-    ```
+```
 
 ## Pre-trained Models
 
