@@ -68,7 +68,7 @@ Our model achieves the following performance on :
 
 ### [Conditional Image Generation on ImageNet 64x64](https://paperswithcode.com/sota/image-classification-on-imagenet)
 
-| Model name         |   IS   |   FID  |  P  |  R  |  D  |  C  |
+| Model name         |   IS &#8593;  |   FID  |  P &#8593; |  R &#8593; |  D &#8593; |  C &#8593; |
 | ------------------ |--------| ------ |-----|-----|-----|-----|
 |       SA-GAN       |  17.77 |  17.23 | 0.68| 0.66| 0.72| 0.71|
 |      Approx SFL    |  19.11 |  16.20 | 0.69| 0.67| 0.76| 0.76|
