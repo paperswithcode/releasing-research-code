@@ -17,7 +17,7 @@ pip install -r requirements.txt
 ```
 
 
-## Training BigGAN on ImageNet with Selective Focusing Learing
+## Training BigGAN with Selective Focusing Learing on ImageNet
 
 To train BigGAN models we use the [BigGAN-PyTorch](https://github.com/ajbrock/BigGAN-PyTorch) repo. We perform minimal changes to the code, consisting only of adding options for instance selection and additional metric logging. A list of changes made to the original repo can be found in the change log at [BigGAN-PyTorch/change_log.md](https://github.com/uoguelph-mlrg/instance_selection_for_gans/blob/master/BigGAN-PyTorch/change_log.md). 
 
