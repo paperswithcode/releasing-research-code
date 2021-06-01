@@ -7,6 +7,9 @@ This repository is the official implementation of [My Paper Title](https://arxiv
 
 ![distribution_overview1](https://user-images.githubusercontent.com/36159663/120271077-9d763080-c2e5-11eb-90cd-167ae185f0bc.png)
 
+## About Selective Focusing Learing
+
+Conditional generative adversarial networks (cGANs) have demonstrated remarkable success due to their class-wise controllability and superior quality for complex generation tasks. Typical cGANs solve the joint distribution matching problem by decomposing two easier sub-problems: marginal matching and conditional matching. From our toy experiments, we found that it is the best to apply only conditional matching to certain samples due to the content-aware optimization of the discriminator. This paper proposes a simple (a few lines of code) but effective training methodology, selective focusing learning, which enforces the discriminator and generator to learn easy samples of each class rapidly while maintaining diversity. Our key idea is to selectively apply conditional and joint matching for the data in each mini-batch. We conducted experiments on recent cGAN variants in ImageNet (64x64 and 128x128), CIFAR-10, and CIFAR-100 datasets, and improved the performance significantly (up to 35.18% in terms of FID) without sacrificing diversity.
 ## Requirements
 
 To install requirements:
