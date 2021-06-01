@@ -75,8 +75,27 @@ Our model achieves the following performance on :
 |      Approx SFL+   |  21.50 |  14.20 | 0.72| **0.68**| 0.84| 0.80|
 |      Exact SFL+    |  **21.98** |  **13.55** | **0.73**| 0.66| **0.85**| **0.81**|
 
->📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it. 
+>📋  Include a table of results from your paper, and link back to the leaderboard for clarity and context. If your main result is a figure, include that figure and link to the command or notebook to reproduce it.
+> 
+## Applying Selective Focusing Learing to Your Own Dataset
 
+Selective Focusing Learing can be applied to any class labelled PyTorch dataset using the `SFL` function. When classes are provided, Selective Focusing Learing will be applied separately for each class.  
+
+The main hyperparameter for Selective Focusing Learing is the `retention_ratio`, a value from 0 to 100 which indicates the percentage of distribution matching that should be selected from the conditional matching. 
+
+```python
+import torchvision
+import torchvision.transforms as transforms
+from SFL import SFL
+
+# images are expected to be in range [-1, 1]
+transform = transforms.Compose([transforms.ToTensor(),
+                                transforms.Normalize(mean=[0.5, 0.5, 0.5],
+                                                     std=[0.5, 0.5, 0.5])])
+
+# replace CIFAR10 with your own dataset 
+dataset = torchvision.datasets.CIFAR10(root='.', transform=transform, download=True)
+instance_selected_dataset = select_instances(dataset, retention_ratio=50)
 
 ## Contributing
 
