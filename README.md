@@ -92,4 +92,5 @@ Selective Focusing Learing can be applied to any class labeled PyTorch dataset u
 
 ## Contributing
 [1] Brock, Andrew, and Alex Andonian. "BigGAN-PyTorch". https://github.com/ajbrock/BigGAN-PyTorch
+
 [2] Terrance DeVries, Michal Drozdzal, and Graham W. Taylor. "Instance Selection for GANs". https://github.com/uoguelph-mlrg/instance_selection_for_gans
