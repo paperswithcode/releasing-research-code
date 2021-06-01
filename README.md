@@ -1,6 +1,4 @@
 
->📋  A template README.md for code accompanying a Machine Learning paper
-
 # Selective Focusing Learning for Conditional GANs
 
 This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
@@ -18,7 +16,6 @@ To install requirements:
 pip install -r requirements.txt
 ```
 
->📋  Describe how to set up the environment, e.g. pip/conda/docker commands, download datasets, etc...
 
 ## Training BigGAN on ImageNet with Selective Focusing Learing
 
