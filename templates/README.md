@@ -1,8 +1,15 @@
 >📋  A template README.md for code accompanying a Machine Learning paper
 
-# My Paper Title
+# Meta Compression: Learning to compress Deep Neural Networks
 
-This repository is the official implementation of [My Paper Title](https://arxiv.org/abs/2030.12345). 
+This repository is the official implementation of Meta Compression: Learning to compress Deep Neural Networks
+
+
+
+**Abstract.** _Deploying large pretrained deep learning models is hindered by the limitations of realistic scenarios such as resource constraints on the user/edge devices. Issues such as selecting the right pretrained model, compression method, and compression level to suit a target application and hardware become especially important. We address these challenges using a novel meta learning framework that can provide high quality recommendations tailored to the specified resource, performance, and efficiency constraints._
+
+_For scenarios with limited to no access to unseen samples that resemble the distribution used for pretraining, we invoke diffusion models to improve generalization to test data and thereby demonstrate the promise of augmenting meta-learners with generative models. When learning across several state-of-the-art compression algorithms and DNN architectures trained on the CIFAR10 dataset, our top recommendation shows only 1% drop in average accuracy loss compared to the optimal compression method. This is in contrast to 25% average accuracy drop achieved by selecting the single best compression method across all constraints._
+
 
 >📋  Optional: include a graphic explaining your approach/main result, bibtex entry, link to demos, blog posts and tutorials
 
